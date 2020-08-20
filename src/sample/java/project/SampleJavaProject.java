@@ -73,5 +73,6 @@ public class SampleJavaProject implements Runnable {
                 return;
             }
         } while (loop);
+        system.out.println("end");
     }
 }
