@@ -30,6 +30,7 @@ public class SampleJavaProjectTest {
     public final void testGetSet() {
         sjp.setName("foo");
         assertEquals("foo", sjp.getName());
+        system.out.println("foo here");
     }
 
     /**
